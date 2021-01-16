@@ -381,9 +381,35 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+/* @media only screen and(max-width : 1400px){
+  #hero {
+    background: url("../img/ipad\ pro\ website\ front\ image.jpg");
+  }
+} */
+
+@media only screen and (max-width : 1100px){
+  #hero {
+    background: url("../img/ipad\ pro\ website\ front\ image.jpg");
+  }
+}
+
+@media only screen and (max-width : 1000px){
+  #hero {
+    background: url("../img/ipad\ website.png");
+  }
+}
+
+@media only screen and (max-width : 500px){
+  #hero {
+    background: url("../img/mobile\ .jpg");
+  }
+}
+
 #hero .container {
   padding-top: 80px;
 }
+
+
 
 #hero:before {
   content: "";
