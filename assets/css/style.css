@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  z-index: ;
+  z-index: 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -376,7 +376,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/Navy\ Blue\ and\ Beige\ Nature\ Travel\ Trifold\ Brochure\ \(2\)\ copy.png") center center;
+  /* background: url("../img/Navy\ Blue\ and\ Beige\ Nature\ Travel\ Trifold\ Brochure\ \(2\)\ copy.png") center center; */
+  background: url("../img/4.\ Presentation\ 37D.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -389,19 +390,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width : 1100px){
   #hero {
-    background: url("../img/ipad\ pro\ website\ front\ image.jpg");
+    background: url("../img/SG_ipadPro.jpg");
   }
 }
 
 @media only screen and (max-width : 1000px){
   #hero {
-    background: url("../img/ipad\ website.png");
+    background: url("../img/SG_ipad.jpg");
   }
 }
 
 @media only screen and (max-width : 500px){
   #hero {
-    background: url("../img/mobile\ .jpg");
+    background: url("../img/SG_mobile.jpg");
   }
 }
 
@@ -586,7 +587,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   background: #009970;
-  padding: 40px 0 20px 0;
+  padding: 10px 0 20px 0;
   color: #fff;
 }
 
